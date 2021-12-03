@@ -1,0 +1,57 @@
+.input-butt {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 2px;
+  font-size: 2rem;
+  display: block;
+  background: linear-gradient(
+    90deg,
+    rgb(70, 255, 110) 0%,
+    rgb(100, 236, 100) 100%
+  );
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.input-butt:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+
+.form-inputs-p {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.form-input-p {
+  font-size: 20px;
+
+  margin-left: 250px;
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 30px;
+  width: 100%;
+  border: none;
+}
+
+.form-input-p::placeholder {
+  color: #595959;
+  font-size: 20px;
+}
+.label-p {
+  margin-left: 200px;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #3B4F6C;
+}

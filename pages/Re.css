@@ -1,0 +1,33 @@
+h2{
+  text-align: center;
+}
+
+.input-bu {
+  width: 20%;
+  text-align: center;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 40%;
+  border-radius: 2px;
+  font-size: 2rem;
+  display: block;
+  background: linear-gradient(
+    90deg,
+    rgb(70, 100, 90) 0%,
+    rgb(22, 73, 15) 100%
+  );
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.input-bu:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
